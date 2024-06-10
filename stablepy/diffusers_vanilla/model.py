@@ -354,8 +354,8 @@ class Model_Diffusers:
             # Unload previous model and stuffs
             self.pipe = None
             self.model_memory = {}
-            self.lora_memory = [None, None, None, None, None]
-            self.lora_scale_memory = [1.0, 1.0, 1.0, 1.0, 1.0]
+            self.lora_memory = [None, None, None, None, None,None]
+            self.lora_scale_memory = [1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
             self.LCMconfig = None
             self.embed_loaded = []
             self.FreeU = False
